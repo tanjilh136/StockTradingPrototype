@@ -55,7 +55,7 @@ def my_custom_close_handler(ws):
     print(ws)
 
 
-key = 'Zay2cQZwZfUTozLiLmyprY4Sr3uK27Vp'
+key = ' '
 my_client = WebSocketClient(STOCKS_CLUSTER, key, my_custom_process_message, on_close=my_custom_close_handler)
 
 
