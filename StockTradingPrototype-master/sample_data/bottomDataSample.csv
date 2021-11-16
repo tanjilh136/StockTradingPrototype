@@ -1,0 +1,5 @@
+Symbol,Action,#Shares,Fill Price,Live Price,Pending,Click to close,Click to close market
+AAPL,Buy,12,3432,4345,yes1,cl1,cl2
+CAPL,Sell,122,34332,43335,yes2,cl1,cl2
+DAPL,Buy,12,3432,4345,yes3.cl1,cl2
+EAPL,Buy,12,3432,4345,yes1,cl1,cl2
