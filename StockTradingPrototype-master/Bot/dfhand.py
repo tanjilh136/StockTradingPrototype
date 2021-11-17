@@ -9,7 +9,7 @@ import sys
 li = []  # ammm eta 23:59:59 second e zero kore dewa lagbe
 list_dict = []
 POLYGON_URI = "wss://socket.polygon.io/stocks"
-POLYGON_KEY = "Zay2cQZwZfUTozLiLmyprY4Sr3uK27Vp"
+POLYGON_KEY = ""
 
 
 def get_iso_time_from_mili(data):
