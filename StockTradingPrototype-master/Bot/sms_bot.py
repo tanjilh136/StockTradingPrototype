@@ -7,16 +7,16 @@ from trade_backend.trader import CustomTimeZone
 
 
 class SmsBot:
-    KARIMS_PHONE_NUMBER = "+14083934260"
-    TWILIO_ACCOUNT_SID_PAID = 'AC94aba3c85c498faa750d6feb24b81f60'
-    TWILIO_AUTH_TOKEN_PAID = 'f5b21ce9959aff8691f6cc7d11c3601c'
-    TWILIO_NUMBER_PAID = "+16504354553"
+    KARIMS_PHONE_NUMBER = "+"
+    TWILIO_ACCOUNT_SID_PAID = ''
+    TWILIO_AUTH_TOKEN_PAID = ''
+    TWILIO_NUMBER_PAID = "+"
 
-    TWILIO_ACCOUNT_SID_TRIAL = 'ACb61a4deb059285cf924aa4ae147f43b6'
-    TWILIO_AUTH_TOKEN_TRIAL = '0a544422bce10ac5cde63bc24e535db3'
-    TWILIO_NUMBER_TRIAL = "+18043125076"
+    TWILIO_ACCOUNT_SID_TRIAL = ''
+    TWILIO_AUTH_TOKEN_TRIAL = ''
+    TWILIO_NUMBER_TRIAL = "+"
 
-    def __init__(self, sms_receiver_phone="+14083934260"):
+    def __init__(self, sms_receiver_phone="+"):
         self.sms_receiver_phone = sms_receiver_phone
         self.processing_received_sms = []
         # [{"from_number": "+1000000", "ticker": "aapl", "target_price": "1.3"},{"from_number": "+1000000", "ticker": "aal", "target_price": "3"}]
